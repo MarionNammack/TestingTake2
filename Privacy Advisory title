@@ -1,0 +1,29 @@
+Privacy Advisory title
+
+{% if ${language} == 'zh' and {{${most_recent_locale}}} == 'tw' %}
+ Privacy Advisory trad chinese
+{% elsif ${language} == 'zh' %}
+Privacy Advisory simple chinese
+{% elsif ${language} == 'hr' %}
+Privacy Advisory croatian
+{% elsif ${language} == 'en' %}
+Privacy Advisory english
+{% elsif ${language} == 'fr' %}
+Privacy Advisory french
+{% elsif ${language} == 'de' %}
+Privacy Advisory german
+{% elsif ${language} == 'ja' %}
+Privacy Advisory japanese
+{% elsif ${language} == 'ko' %}
+Privacy Advisory korean
+{% elsif ${language} == 'pt' %}
+Privacy Advisory pt
+{% elsif ${language} == 'ru' %}
+ Privacy Advisory russian
+{% elsif ${language} == 'es' %}
+Privacy Advisory spanish
+{% elsif ${language} == 'vi' %}
+Privacy Advisory vietnamese 
+{% else %}
+Privacy Advisory generic 
+{% endif %}
