@@ -1,0 +1,23 @@
+{% if ${language} == 'en' %}
+english message
+{% elsif ${language} == 'fr' %}
+french message
+{% elsif ${language} == 'de' %}
+german message
+{% elsif ${language} == 'hr' %}
+croatian message
+{% elsif ${language} == 'ko' %}
+korean message
+{% elsif ${language} == 'ja' %}
+japanese
+{% elsif ${language} == 'pt' %}
+Portugal
+{% elsif ${language} == 'ru' %}
+russian
+{% elsif ${language} == 'es' %}
+spanish
+{% elsif ${language} == 'vi' %}
+vietnam
+{% else %}
+generic
+{% endif %}
