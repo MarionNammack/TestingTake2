@@ -1,0 +1,29 @@
+Learn more about Lookout Premium
+
+{% if ${language} == 'zh' and {{${most_recent_locale}}} == 'tw' %}
+Learn more  trad chinese
+{% elsif ${language} == 'zh' %}
+Learn more  simple chinese
+{% elsif ${language} == 'hr' %}
+Learn more  croatian
+{% elsif ${language} == 'en' %}
+Learn more  english
+{% elsif ${language} == 'fr' %}
+Learn more  french
+{% elsif ${language} == 'de' %}
+Learn more  german
+{% elsif ${language} == 'ja' %}
+Learn more  japanese
+{% elsif ${language} == 'ko' %}
+Learn more  korean
+{% elsif ${language} == 'pt' %}
+Learn more  pt
+{% elsif ${language} == 'ru' %}
+Learn more  russian
+{% elsif ${language} == 'es' %}
+Learn more spanish
+{% elsif ${language} == 'vi' %}
+Learn more vietnamese 
+{% else %}
+Learn more generic 
+{% endif %}
